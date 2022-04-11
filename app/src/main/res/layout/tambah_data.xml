@@ -4,45 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#4FDCCC"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".TambahData">
 
     <EditText
         android:id="@+id/editNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama produk"
         android:layout_margin="10dp"
-        android:inputType="textPersonName"/>
+        android:hint="NAME PRODUCT"
+        android:inputType="textPersonName" />
+
     <EditText
         android:id="@+id/editHarga"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Harga"
-        android:inputType="textPersonName"/>
+        android:layout_margin="10dp"
+        android:hint="PRICE"
+        android:inputType="textPersonName" />
+
     <EditText
         android:id="@+id/editDeskripsi"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Deskripsi"
-        android:inputType="textPersonName"/>
+        android:layout_margin="10dp"
+        android:hint="DESCRIPTION"
+        android:inputType="textPersonName" />
+
     <EditText
         android:id="@+id/editKategori"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kategori"
-        android:inputType="textPersonName"/>
+        android:layout_margin="10dp"
+        android:hint="CATEGORIES"
+        android:inputType="textPersonName" />
+
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
-        android:textSize="20dp"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Submit"/>
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageTambah"
@@ -54,9 +59,9 @@
 
     <Button
         android:id="@+id/btnSave"
-        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Save"/>
+        android:text="Save"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 </LinearLayout>

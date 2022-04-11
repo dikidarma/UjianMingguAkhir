@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:background="#4FDCCC"
+    android:gravity="center"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageProduk"
@@ -16,31 +17,34 @@
         android:id="@+id/txtNamaProdukDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:text="Nama Produk"/>
+        android:layout_marginTop="20dp"
+        android:text="Name Product"
+        android:textSize="20dp" />
+
     <TextView
         android:id="@+id/txtHargaProdukDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
-        android:layout_marginTop="10dp"
-        android:text="Harga Produk"/>
+        android:layout_marginTop="20dp"
+        android:text="Price Product"
+        android:textSize="25dp" />
+
     <TextView
         android:id="@+id/txtDeskripsiProdukDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Deskripsi Produk"
-        android:textSize="15dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="20dp"
+        android:text="Description Product"
+        android:textSize="25dp" />
+
     <TextView
         android:id="@+id/txtKategoriProdukDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kategori Produk"
-        android:textSize="15dp"
-        android:textStyle="italic"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="20dp"
+        android:text="categories Product"
+        android:textSize="25dp"
+        android:textStyle="italic" />
 
 
 </LinearLayout>
